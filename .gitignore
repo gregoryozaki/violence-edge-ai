@@ -1,0 +1,164 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ============================================================
+# Ambientes virtuais / Conda
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ============================================================
+# Build / empacotamento Python
+# ============================================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# Variáveis de ambiente e segredos
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+configs/configuracao_frase_secreta.json
+
+*.local.yaml
+*.local.yml
+*.local.json
+
+# ============================================================
+# Datasets
+# ============================================================
+
+datasets/**/raw/
+datasets/**/processed/
+datasets/**/splits/
+
+!datasets/**/README.md
+
+# ============================================================
+# Modelos de Machine Learning
+# ============================================================
+
+# PyTorch
+*.pt
+*.pth
+
+# TensorFlow / Keras
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# TensorFlow Lite
+*.tflite
+
+# ONNX
+*.onnx
+*.onnx.data
+
+# Hugging Face
+*.safetensors
+
+# Serialização
+*.joblib
+*.pkl
+*.pickle
+
+# Estado de treinamento
+training_args.bin
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state.pth
+
+# Checkpoints
+**/checkpoint-*/
+**/checkpoints*/
+
+# ============================================================
+# Pacotes compactados
+# ============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# ============================================================
+# Resultados / artefatos de execução
+# ============================================================
+
+outputs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# ============================================================
+# Runtime embarcado
+# ============================================================
+
+edge_runtime/captures/
+edge_runtime/logs/
+
+# ============================================================
+# NumPy / arquivos temporários
+# ============================================================
+
+*.npy
+*.npz
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ============================================================
+# Bancos locais
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# IDE / Sistema operacional
+# ============================================================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini

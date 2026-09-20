@@ -1,0 +1,4 @@
+split,imagens,objetos,negativas,rotulos_ausentes,rotulos_invalidos
+train,5934,6178,554,0,0
+val,1272,1299,147,0,0
+test,1272,1328,125,0,0

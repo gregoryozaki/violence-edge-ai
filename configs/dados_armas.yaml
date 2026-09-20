@@ -1,0 +1,10 @@
+train: /content/deteccao-armas/dataset/Dangerous Items/images/train
+val: /content/deteccao-armas/dataset/Dangerous Items/images/val
+test: /content/deteccao-armas/dataset/Dangerous Items/images/test
+nc: 5
+names:
+  0: machete
+  1: knife
+  2: baseball_bat
+  3: rifle
+  4: gun

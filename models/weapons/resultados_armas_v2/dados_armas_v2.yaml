@@ -1,0 +1,9 @@
+train: /content/deteccao-armas-v2/listas_dataset/train.txt
+val: /content/deteccao-armas-v2/listas_dataset/val.txt
+names:
+  0: machete
+  1: knife
+  2: baseball_bat
+  3: rifle
+  4: gun
+test: /content/deteccao-armas-v2/listas_dataset/test.txt
