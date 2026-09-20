@@ -1,0 +1,31 @@
+audio:
+  dispositivo: "plughw:CARD=sndrpigooglevoi,DEV=0"
+  taxa: 48000
+  canais: 2
+  formato: "S32_LE"
+  janela_segundos: 3
+
+camera:
+  dispositivo: 0
+  largura: 640
+  altura: 480
+
+modelos:
+  violencia: "models/violence/violencia_float16.tflite"
+  armas: "models/weapons/armas_dynamic.tflite"
+  aed: "models/aed/aed_dynamic.tflite"
+  palavras_chave: "models/nlp/palavras_chave.json"
+
+gpio:
+  led_verde: 17
+  led_amarelo: 22
+  led_vermelho: null
+
+telegram:
+  ativado: false
+
+decisao:
+  limiar_vad_rms: 5000000
+  limiar_violencia: 0.70
+  limiar_arma: 0.50
+  limiar_aed: 0.70

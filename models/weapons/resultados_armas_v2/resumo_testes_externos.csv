@@ -1,0 +1,3 @@
+modelo,imagem,quantidade_deteccoes,classes,maior_confianca
+original,faca2.png,1,machete,0.3983975350856781
+v2,faca2.png,1,machete,0.4238424599170685

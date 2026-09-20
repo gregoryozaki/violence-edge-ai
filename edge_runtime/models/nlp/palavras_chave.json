@@ -1,0 +1,40 @@
+{
+  "pedido_ajuda": [
+    "socorro",
+    "me ajuda",
+    "ajuda",
+    "chama a policia",
+    "chama a polícia",
+    "liga pra policia",
+    "liga pra polícia",
+    "para",
+    "não faz isso",
+    "nao faz isso"
+  ],
+  "ameaca": [
+    "vou te matar",
+    "ele vai me matar",
+    "vai me matar",
+    "matar",
+    "morte",
+    "ameaça",
+    "ameaca"
+  ],
+  "arma": [
+    "arma",
+    "revólver",
+    "revolver",
+    "pistola",
+    "faca",
+    "facão",
+    "facao"
+  ],
+  "violencia": [
+    "bateu",
+    "apanhei",
+    "agressão",
+    "agressao",
+    "machucou",
+    "sangue"
+  ]
+}
